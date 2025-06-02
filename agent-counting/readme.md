@@ -11,7 +11,7 @@ A sample repository with a an agent chat.
 To start Restack, use the following Docker command:
 
 ```bash
-docker run -d --pull always --name restack -p 5233:5233 -p 6233:6233 -p 7233:7233 -p 9233:9233 p 10233:10233 ghcr.io/restackio/restack:main
+docker run -d --pull always --name restack -p 5233:5233 -p 6233:6233 -p 7233:7233 -p 9233:9233 -p 10233:10233 ghcr.io/restackio/restack:main
 ```
 
 ## Install dependencies and start services
@@ -102,3 +102,4 @@ It will connect to Restack and send 2 events to the agent, one to generate anoth
 ## Deploy on Restack Cloud
 
 To deploy the application on Restack, you can create an account at [https://console.restack.io](https://console.restack.io)
+
